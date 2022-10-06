@@ -65,7 +65,7 @@ p {
 /* components */
 .testimonial-grid {
   display: grid;
-  gap: 1rem;
+  gap: 0.85em;
 
   padding-block: 2rem;
   width: min(95%, 70rem);
