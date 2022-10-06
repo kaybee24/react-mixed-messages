@@ -25,89 +25,75 @@ function App() {
 
   return (
     <div>
-       <nav>
-          <ul>
-            <li>
-              <button
-                onClick={handlePrevClick}
-                disabled={!hasPrev}>
-                &#8592;
-              </button>
+      <nav>
+        <ul>
+          <li>
+            <button
+              onClick={handlePrevClick}
+              disabled={!hasPrev}>
+              &#8592;
+            </button>
           </li>
           <li>
-              <button
-                onClick={handleRandom}>
-                &#8596;
-              </button>
-            </li>
-            <li>
-              <button
-                onClick={handleNextClick}
-                disabled={!hasNext}>
-                &#8594;
-              </button>
-            </li>
-          </ul>
-          <p className="text-secondary text-center">
-            ({index + 1} of {statementList.length})
-          </p>
-        </nav>
+            <button
+              onClick={handleRandom}>
+              &#8596;
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={handleNextClick}
+              disabled={!hasNext}>
+              &#8594;
+            </button>
+          </li>
+        </ul>
+        <p className="text-secondary text-center">
+          ({index + 1} of {statementList.length})
+        </p>
+      </nav>
       <main className="testimonial-grid">
-       
+
         <article className="testimonial grid-col-span-2 grid-row-span-4 flow">
-            <div className="flex">
-                <div>
-                <img
-            className="object-none"
-            src={statement.url1}
-          />  
-                </div>
-            </div>
+          <div className="flex">
+            <img
+              src={statement.url1}
+            />
+          </div>
 
         </article>
         <article className="testimonial flow bg-secondary text-primary">
-            <div className="flex">
-                <div>
-                    <p className="padding">
-                    {statement.quote}                    
-                    </p>
-                </div>
-            </div>
+          <div className="flex">
+            <p className="padding">
+              {statement.quote}
+            </p>
+          </div>
 
         </article>
         <article className="testimonial flow">
-            <div className="flex">
-                <div>
-                <img
-            className="object-none"
-            src={statement.url2}
-          /> 
-                </div>
-            </div>
+          <div className="flex">
+            <img
+              src={statement.url2}
+            />
+          </div>
         </article>
         <article className="testimonial grid-col-span-2 flow bg-secondary text-primary">
-            <div className="flex">
-                <div className="text-center">
-                    <h1 className="padding">
-                    {statement.name}   
-                    </h1>
-                </div>
-            </div>
+          <div className="flex">
+            <h1 className="padding text-center">
+              {statement.name}
+            </h1>
+          </div>
 
 
         </article>
         <article className="testimonial grid-col-span-2 flow">
-            <div className="flex">
-                <div>
-                <img
-            className="object-none"
-            src={statement.url3}
-          />   
-
-                </div>
-            </div>
+          <div className="flex">
+            <img
+              src={statement.url3}
+            />
+          </div>
         </article>
-    </main>
+      </main>
     </div >
   )
 }
