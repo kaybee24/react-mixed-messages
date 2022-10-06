@@ -6,7 +6,7 @@ body {
   font-family: var(--ff-primary);
   font-weight: var(--fw-400);
 
-  background-color: hsl(var(--clr-primary-400));
+  background-color: hsl(var(--clr-primary));
 }
 
 h1 {
@@ -27,22 +27,22 @@ p {
   gap: var(--gap, 1rem);
 }
 
-.bg-primary-400 {
-  background: hsl(var(--clr-primary-400));
+.bg-primary {
+  background: hsl(var(--clr-primary));
 }
-.bg-secondary-400 {
-  background: hsl(var(--clr-secondary-400));
+.bg-secondary {
+  background: hsl(var(--clr-secondary));
 }
-.bg-highlight-400 {
-  background: hsl(var(--clr-highlight-400));
-}
-
-.text-primary-400 {
-  color: hsl(var(--clr-primary-400));
+.bg-highlight {
+  background: hsl(var(--clr-highlight));
 }
 
-.text-secondary-400 {
-  color: hsl(var(--clr-secondary-400));
+.text-primary {
+  color: hsl(var(--clr-primary));
+}
+
+.text-secondary {
+  color: hsl(var(--clr-secondary));
 }
 
 .padding {
@@ -80,7 +80,7 @@ p {
 nav {
   position: fixed;
   bottom: 0;
-  left: 25%;
+  left: 40%;
 }
 
 nav ul {
@@ -94,7 +94,7 @@ nav ul li {
 }
 
 button {
-  background: hsl(var(--clr-highlight-400));
+  background: hsl(var(--clr-highlight));
   width: 100%;
   border-radius: 50%;
   position: relative;
@@ -108,5 +108,5 @@ button::after {
 }
 
 button:disabled {
-  background: hsl(var(--clr-highlight-400) / 0.3);
+  background: hsl(var(--clr-highlight) / 0.3);
 }
