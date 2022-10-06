@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { statementList } from './data';
 import './App.css';
+import './reset.css';
 import './styles.css';
 
 function App() {
@@ -48,7 +49,7 @@ function App() {
               </button>
             </li>
           </ul>
-          <p className="text-secondary-400">
+          <p className="text-secondary text-center">
             ({index + 1} of {statementList.length})
           </p>
         </nav>
@@ -63,7 +64,7 @@ function App() {
             </div>
 
         </article>
-        <article className="testimonial flow bg-secondary-400 text-primary-400">
+        <article className="testimonial flow bg-secondary text-primary">
             <div className="flex">
                 <div>
                     <p className="padding">
@@ -83,7 +84,7 @@ function App() {
                 </div>
             </div>
         </article>
-        <article className="testimonial grid-col-span-2 flow bg-secondary-400 text-primary-400">
+        <article className="testimonial grid-col-span-2 flow bg-secondary text-primary">
             <div className="flex">
                 <div className="text-center">
                     <h1 className="padding">
