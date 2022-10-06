@@ -1,0 +1,112 @@
+body {
+  display: grid;
+  place-content: center;
+  max-height: 100vh;
+
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-400);
+
+  background-color: hsl(var(--clr-primary-400));
+}
+
+h1 {
+  font-weight: var(--fw-700);
+  font-size: var(--fs-500);
+  text-transform: uppercase;
+}
+
+p {
+  font-weight: var(--fw-400);
+  font-size: var(--fs-300);
+  line-height: 3rem;
+}
+
+/* utilities */
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+.bg-primary-400 {
+  background: hsl(var(--clr-primary-400));
+}
+.bg-secondary-400 {
+  background: hsl(var(--clr-secondary-400));
+}
+.bg-highlight-400 {
+  background: hsl(var(--clr-highlight-400));
+}
+
+.text-primary-400 {
+  color: hsl(var(--clr-primary-400));
+}
+
+.text-secondary-400 {
+  color: hsl(var(--clr-secondary-400));
+}
+
+.padding {
+  padding: 0.7rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.grid-col-span-2 {
+  grid-column: span 2;
+}
+
+.grid-row-span-4 {
+  grid-row: span 4;
+}
+
+/* components */
+.testimonial-grid {
+  display: grid;
+  gap: 1rem;
+
+  padding-block: 2rem;
+  width: min(95%, 70rem);
+  margin-inline: auto;
+}
+
+@media (min-width: 50em) {
+  .testimonial-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  left: 25%;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+button {
+  background: hsl(var(--clr-highlight-400));
+  width: 100%;
+  border-radius: 50%;
+  position: relative;
+  border-width: 0;
+  padding: 1rem 1.2rem;
+}
+
+button::after {
+  content: "";
+  display: block;
+}
+
+button:disabled {
+  background: hsl(var(--clr-highlight-400) / 0.3);
+}
