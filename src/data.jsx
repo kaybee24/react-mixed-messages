@@ -30,7 +30,7 @@ export const statementList = [{
     id: 6,
     url1: 'img/luben_1.jpg',
     name: 'Fi',
-    quote: `I uploaded five pictues and Chris held my hand through it.`,
+    quote: `I uploaded five pictures and Chris held my hand through it.`,
     url2: 'img/luben_2.jpg',
     url3: 'img/luben_3.jpg',
 }, {
@@ -168,11 +168,11 @@ export const statementList = [{
     url3: 'img/malaiz_3.jpg',
 }, {
     id: 28,
-    url1: 'img/victor_1.jpg',
+    url1: 'img/chris_1.jpg',
     name: 'Chris',
     quote: `I could talk some more about it – because I dont have any self-control`,
-    url2: 'img/victor_2.jpg',
-    url3: 'img/victor_3.jpg',
+    url2: 'img/chris_2.jpg',
+    url3: 'img/chris_3.jpg',
 }, {
     id: 29,
     url1: 'img/victor_1.jpg',

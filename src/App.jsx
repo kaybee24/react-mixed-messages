@@ -52,8 +52,8 @@ function App() {
           ({index + 1} of {statementList.length})
         </p>
       </nav>
-      <main className="testimonial-grid">
 
+      <main className="testimonial-grid">
         <article className="testimonial grid-col-span-2 grid-row-span-4 flow">
           <div className="flex">
             <img
