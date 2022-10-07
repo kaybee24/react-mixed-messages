@@ -18,13 +18,17 @@ h1 {
 p {
   font-weight: var(--fw-400);
   font-size: var(--fs-300);
-  line-height: 3rem;
+  line-height: 2.4rem;
 }
 
 /* utilities */
 .flex {
   display: flex;
   gap: var(--gap, 1rem);
+}
+
+.padding {
+  padding: 0.7rem;
 }
 
 .bg-primary {
@@ -45,10 +49,6 @@ p {
   color: hsl(var(--clr-secondary));
 }
 
-.padding {
-  padding: 0.7rem;
-}
-
 .text-center {
   text-align: center;
   width: 100%;
@@ -60,6 +60,10 @@ p {
 
 .grid-row-span-4 {
   grid-row: span 4;
+}
+
+.grid-50 {
+  min-width: 100%;
 }
 
 /* components */
@@ -77,30 +81,34 @@ p {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+.navigation {
+  position: fixed;
+  bottom: 1em;
+  width: 100%;
+}
 
 nav {
-  position: fixed;
-  bottom: 0;
-  left: 40%;
+  all: unset;
+  display:flex;
+  align-items: center;
 }
 
 nav ul {
-  display: flex;
-  flex-direction: row;
   list-style: none;
+  text-align: center;
+  margin: auto;
 }
 
 nav ul li {
   margin: 0 1rem;
+  float:left;
 }
 
 button {
   background: hsl(var(--clr-highlight));
-  width: 100%;
   border-radius: 50%;
-  position: relative;
   border-width: 0;
-  padding: 1rem 1.2rem;
+  padding: 1rem 1.1rem;
 }
 
 button::after {
@@ -110,4 +118,4 @@ button::after {
 
 button:disabled {
   background: hsl(var(--clr-highlight) / 0.3);
-}
+} 
