@@ -1,13 +1,18 @@
 :root {
   --clr-primary: 0 0% 10%;
   --clr-secondary: 0 0% 100%;
-  --clr-highlight: 1 100% 60%;
+  --clr-highlight: 350, 89%, 60%; /* 1 100% 60% */
 
   --ff-primary: "Lato", Helvetica, sans-serif;
 
   --fw-400: 400;
   --fw-700: 700;
 
+  --fs-200: 1rem;
   --fs-300: 1.5rem;
   --fs-500: 4rem;
+}
+
+.viewheight {
+  min-height: calc(var(--vh, 1vh) * 100);
 }
