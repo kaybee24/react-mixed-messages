@@ -2,27 +2,27 @@
     "statements": [
         {
             "id": 1,
-            "url1": "img/luben_1.jpg",
+            "url1": "img/sivak_1.jpg",
             "name": "Sivak",
             "quote": "I do believe a coder has no social life.",
-            "url2": "img/luben_2.jpg",
+            "url2": "img/sivak_2.jpg",
             "url3": "img/sivak_3.jpg"
         },
         {
             "id": 2,
-            "url1": "img/luben_1.jpg",
+            "url1": "img/zan_1.jpg",
             "name": "Zan",
             "quote": "If React makes it easier, I am really looking forward to it.",
-            "url2": "img/luben_2.jpg",
-            "url3": "img/victor_3.jpg"
+            "url2": "img/zan_2.jpg",
+            "url3": "img/zan_3.jpg"
         },
         {
             "id": 4,
-            "url1": "img/luben_1.jpg",
+            "url1": "img/malaiz_1.jpg",
             "name": "Malaiz",
             "quote": "Yesterday I was in the unfamiliar territory – today it's familiar (:",
-            "url2": "img/luben_2.jpg",
-            "url3": "img/victor_3.jpg"
+            "url2": "img/malaiz_2.jpg",
+            "url3": "img/malaiz_3.jpg"
         },
         {
             "id": 5,
@@ -74,11 +74,11 @@
         },
         {
             "id": 11,
-            "url1": "img/luben_1.jpg",
+            "url1": "img/samin_1.jpg",
             "name": "Samin",
             "quote": "I'm sooo glad its weekend finally.",
-            "url2": "img/luben_2.jpg",
-            "url3": "img/sivak_3.jpg"
+            "url2": "img/samin_2.jpg",
+            "url3": "img/samin_3.jpg"
         },
         {
             "id": 12,
@@ -157,7 +157,7 @@
             "url1": "img/fabian_1.jpg",
             "name": "Fabian",
             "quote": "I'm sure Chris also does 'git add . '.",
-            "url2": "img/luben_2.jpg",
+            "url2": "img/fabian_2.jpg",
             "url3": "img/fabian_3.jpg"
         },
         {
@@ -165,7 +165,7 @@
             "url1": "img/victor_1.jpg",
             "name": "Victor",
             "quote": "I think I need two lives to understand that.",
-            "url2": "img/luben_2.jpg",
+            "url2": "img/victor_2.jpg",
             "url3": "img/victor_3.jpg"
         },
         {
@@ -173,7 +173,7 @@
             "url1": "img/victor_1.jpg",
             "name": "Victor",
             "quote": "I think, I fucked it up – like really good (using git).",
-            "url2": "img/luben_2.jpg",
+            "url2": "img/victor_2.jpg",
             "url3": "img/victor_3.jpg"
         },
         {
@@ -181,32 +181,32 @@
             "url1": "img/marina_1.jpg",
             "name": "Marina",
             "quote": "I felt like we are all winners (:",
-            "url2": "img/luben_2.jpg",
+            "url2": "img/marina_2.jpg",
             "url3": "img/marina_3.jpg"
         },
         {
             "id": 26,
-            "url1": "img/victor_1.jpg",
+            "url1": "img/chris_1.jpg",
             "name": "Chris",
             "quote": "The whole course is a lie. Until the last day",
-            "url2": "img/luben_2.jpg",
-            "url3": "img/sivak_3.jpg"
+            "url2": "img/chris_2.jpg",
+            "url3": "img/chris_3.jpg"
         },
         {
             "id": 27,
-            "url1": "img/victor_1.jpg",
+            "url1": "img/malaiz_1.jpg",
             "name": "Malaiz",
             "quote": "I'm even more confused now – … but thats OK.",
-            "url2": "img/luben_2.jpg",
-            "url3": "img/luben_3.jpg"
+            "url2": "img/malaiz_2.jpg",
+            "url3": "img/malaiz_3.jpg"
         },
         {
             "id": 28,
-            "url1": "img/victor_1.jpg",
+            "url1": "img/chris_1.jpg",
             "name": "Chris",
             "quote": "I could talk some more about it – because I dont have any self-control",
-            "url2": "img/victor_2.jpg",
-            "url3": "img/victor_3.jpg"
+            "url2": "img/chris_2.jpg",
+            "url3": "img/chris_3.jpg"
         },
         {
             "id": 29,
