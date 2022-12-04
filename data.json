@@ -106,10 +106,10 @@
         },
         {
             "id": 15,
-            "url1": "img/victor_1.jpg",
+            "url1": "img/sivak_1.jpg",
             "name": "Sivak",
             "quote": "I do nothing. Except this course and cook one meal a day.",
-            "url2": "img/luben_2.jpg",
+            "url2": "img/sivak_2.jpg",
             "url3": "img/sivak_3.jpg"
         },
         {
@@ -170,6 +170,14 @@
         },
         {
             "id": 24,
+            "url1": "img/chris_1.jpg",
+            "name": "Chris",
+            "quote": "I could talk some more about it – because I dont have any self-control",
+            "url2": "img/chris_2.jpg",
+            "url3": "img/chris_3.jpg"
+        },
+        {
+            "id": 25,
             "url1": "img/victor_1.jpg",
             "name": "Victor",
             "quote": "I think, I fucked it up – like really good (using git).",
@@ -177,7 +185,7 @@
             "url3": "img/victor_3.jpg"
         },
         {
-            "id": 25,
+            "id": 26,
             "url1": "img/marina_1.jpg",
             "name": "Marina",
             "quote": "I felt like we are all winners (:",
@@ -185,7 +193,7 @@
             "url3": "img/marina_3.jpg"
         },
         {
-            "id": 26,
+            "id": 27,
             "url1": "img/chris_1.jpg",
             "name": "Chris",
             "quote": "The whole course is a lie. Until the last day",
@@ -193,20 +201,12 @@
             "url3": "img/chris_3.jpg"
         },
         {
-            "id": 27,
+            "id": 28,
             "url1": "img/malaiz_1.jpg",
             "name": "Malaiz",
             "quote": "I'm even more confused now – … but thats OK.",
             "url2": "img/malaiz_2.jpg",
             "url3": "img/malaiz_3.jpg"
-        },
-        {
-            "id": 28,
-            "url1": "img/chris_1.jpg",
-            "name": "Chris",
-            "quote": "I could talk some more about it – because I dont have any self-control",
-            "url2": "img/chris_2.jpg",
-            "url3": "img/chris_3.jpg"
         },
         {
             "id": 29,
